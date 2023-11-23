@@ -1,0 +1,107 @@
+body {
+   
+    background-color: #39222c;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.input {
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #f1e2e2;
+    font-size: 18px;
+} 
+
+.item-input {
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #ffdea6;
+    background: none;
+}
+
+.item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ .boton-agregar {
+    width:50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #c24277;
+    color:#ffdad6;
+ }
+
+ .boton-agregar:hover {
+    opacity: 0.9;
+ }
+
+ .boton-editar {
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+    border: none;
+    background: none;
+    color: #c5b4bb;
+    font-size: 1.4rem;
+    font-family: Montserrat, sans-serif;
+ } 
+
+.boton-remover {
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+    border: none;
+    border-radius: 10px;
+    
+    background-color: #ffdad6;
+    color: #c24277;
+    font-size: 20px;
+
+}
+
+@media (max-width: 600px) {
+
+    .input {
+        width: 200px;
+    }
+
+    .item-input {
+        width: 150px;
+        height: 40px;
+
+    }
+
+    .boton-editar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .boton-remover {
+        width: 40px;
+        height: 40px;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+    .input {
+        width: 180px;
+    }
+
+}
